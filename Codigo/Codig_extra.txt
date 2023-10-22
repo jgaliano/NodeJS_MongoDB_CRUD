@@ -1,0 +1,16 @@
+// "test": "echo \"Error: no test specified\" && exit 1"
+
+/ CODIGO PARA HACER LA CONEXIÓN Y LEVANTAR EL API: 
+const express = require('express');
+
+const app = express();
+const port = 9000;
+
+app.get("/", (req, res) => {
+    res.send("Welcome to my new API");
+});
+
+app.listen(port, () => console.log("server listening on port", port));
+
+"start": "nodemon src/index.js"
+
