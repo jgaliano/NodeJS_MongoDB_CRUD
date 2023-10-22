@@ -3,4 +3,3 @@
 Configuración para test local: 
 
 1. Iniciar Node (node_module not include).
-2. 
